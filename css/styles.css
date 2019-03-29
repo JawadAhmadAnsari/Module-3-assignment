@@ -28,13 +28,13 @@
 	margin-top: 10px;
 }
 
-#nav-list a {
+#nav-list h5 {
 	color: #951C49;
 	text-align: center;
 	background: white;
 }
 
-#nav-list a:hover {
+#nav-list h5:hover {
 	background: #E7E7E7;
 }
 
@@ -51,16 +51,12 @@
 
 #Chicken-tile, #Beef-tile, #Sushi-tile {
 	background-color: #b2b2b2;
+	color: #3b3a30
 }
 
 #Chicken , #Beef, #Sushi {
 	background-color: #b2b2b2;
+	color: #3b3a30;
 }
 
-#Chicken-tile p:hover, #Beef-tile p:hover, #Sushi-tile p:hover{
-	text-decoration: none;
-}
 
-#Chicken p:hover, #Beef p:hover, #Sushi p:hover {
-	text-decoration: none;
-}
