@@ -5,8 +5,12 @@
 	border: 0;
 }
 
+.navbar-brand {
+	padding-top: 25px;
+}
+
 .navbar-brand h1 { /* restaurant name */
-	color: #3b3a30;
+	color: #557c3e;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -16,45 +20,47 @@
 	line-height: .75;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
 #nav-list {
 	margin-top: 10px;
-	background-color: #f0f0f0;
-	text-align: center;
 }
 
 #nav-list a {
-	color: #3b3a30;
-	background-color: #f0f0f0;
+	color: #951C49;
 	text-align: center;
+	background: white;
 }
 
 #nav-list a:hover {
 	background: #E7E7E7;
 }
 
-#nav-list a span {
-	font-size: 1.8em;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
 }
 
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
 
-/* End Header */
+/* END HEADER */
 
-
-
-
-#sub-content div, p  {
-	width: 95%;
-	margin:0 auto auto auto;
+#Chicken-tile, #Beef-tile, #Sushi-tile {
 	background-color: #b2b2b2;
 }
 
+#Chicken , #Beef, #Sushi {
+	background-color: #b2b2b2;
+}
 
-#item span,#item2 span, #item3 span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	font-size: 1.6em;
-	background-color: #000;
-	color: #fff;
-} 
+#Chicken-tile p:hover, #Beef-tile p:hover, #Sushi-tile p:hover{
+	text-decoration: none;
+}
+
+#Chicken p:hover, #Beef p:hover, #Sushi p:hover {
+	text-decoration: none;
+}
